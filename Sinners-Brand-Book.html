@@ -104,7 +104,81 @@ svg{max-width:100%}
 .two .names{display:flex;flex-wrap:wrap;gap:8px}
 .two .names span{font:600 12px/1 var(--f-body);letter-spacing:.14em;text-transform:uppercase;padding:9px 12px;border-radius:999px;background:var(--fg);color:var(--bg)}
 
-/* 02 logo */
+/* 02 archetype */
+.arch-ch .obj{border-color:var(--ink);box-shadow:6px 6px 0 var(--ink-2)}
+.arch-title{font-size:clamp(54px,8.6vw,132px)}
+.arch-title span{color:var(--lime-his)}
+.arch-trio{margin-top:clamp(44px,6vw,80px)}
+.arch-top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.arch-pct{font-size:clamp(56px,6vw,84px)}
+.arch-pct small{font-size:.5em}
+.arch-role{font:600 12px/1.3 var(--f-body);letter-spacing:.16em;text-transform:uppercase}
+.arch-motto{font-size:clamp(28px,2.8vw,38px)}
+.mix{margin-top:clamp(28px,3.4vw,40px)}
+.mix .ratio span{font-size:13px}
+.mix .ratio-name h4{color:var(--halo)}
+.mix .ratio-name span{color:rgba(253,246,231,.68)}
+.arch-tag{display:inline-flex;align-items:center;font:600 11px/1 var(--f-body);letter-spacing:.14em;text-transform:uppercase;padding:7px 10px;border-radius:999px;background:var(--bg);color:var(--fg);white-space:nowrap}
+.t-out{--bg:var(--blue);--fg:var(--lime-his)}
+.t-jes{--bg:var(--lime-his);--fg:var(--ink)}
+.t-lov{--bg:var(--pink);--fg:var(--lime-hers)}
+.t-irony{--bg:var(--halo);--fg:var(--ink);box-shadow:inset 0 0 0 1.5px var(--ink)}
+.isnt{display:grid;grid-template-columns:1fr 1fr;gap:clamp(16px,3vw,40px)}
+.isnt h4{font-family:var(--f-display);font-weight:400;text-transform:uppercase;font-size:40px;line-height:.9;padding-bottom:10px;border-bottom:2px solid currentColor;margin-bottom:6px}
+.isnt .yes h4{color:var(--lime-his)}
+.isnt .no h4{color:var(--pink)}
+.isnt li{display:grid;grid-template-columns:150px minmax(0,1fr);gap:16px;align-items:baseline;padding-block:13px;border-bottom:1px solid rgba(253,246,231,.18)}
+.isnt li b{font-family:var(--f-display);font-weight:400;text-transform:uppercase;font-size:30px;line-height:.92;color:var(--halo)}
+.isnt .no li b{text-decoration:line-through;text-decoration-color:var(--pink);text-decoration-thickness:3px}
+.isnt li p{font-size:15px;color:rgba(253,246,231,.72)}
+.why{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(14px,2vw,24px)}
+.why-card{background:var(--paper);color:var(--ink);display:grid;grid-template-rows:auto 1fr;min-width:0}
+.why-card.wide{grid-column:span 2}
+.why-vis{height:clamp(150px,13vw,190px);border-bottom:2px solid var(--ink);display:flex;overflow:hidden;position:relative}
+.why-vis > *{flex:1;min-width:0}
+.why-vis .lg{display:grid;place-items:center;text-align:center}
+.why-meta{padding:18px 18px 20px;display:grid;gap:10px;align-content:start}
+.why-meta h3{font-size:clamp(30px,2.6vw,36px);font-variation-settings:"wdth" 87.5}
+.why-tags{display:flex;flex-wrap:wrap;gap:6px}
+.why-meta p{font-size:14.5px;line-height:1.5;color:var(--muted);max-width:56ch}
+.why-ref{font:500 12px/1.3 var(--f-mono);color:var(--muted);text-decoration:none;justify-self:start}
+.why-ref:hover{color:var(--pink)}
+.v-clash span{font-size:clamp(46px,5vw,72px)}
+.v-thread{background:linear-gradient(90deg,var(--blue) 50%,var(--pink) 50%);align-items:center}
+.v-thread i{height:30%;background:linear-gradient(90deg,var(--lime-his),var(--lime-hers));border-block:2px solid var(--ink)}
+.v-forbid{background:var(--halo);gap:10px;padding:14px}
+.v-forbid i{display:flex;align-items:flex-end;padding:8px;border:2px solid var(--ink);font:500 11px/1.2 var(--f-mono);font-style:normal;color:var(--halo)}
+.v-halo{background:var(--halo);align-items:center;justify-content:center;gap:4%}
+.v-halo > *{flex:none}
+.v-halo .sp{width:clamp(56px,6vw,84px);height:auto;aspect-ratio:1}
+.v-shout{background:var(--blue);color:var(--lime-his)}
+.v-shout .lg{font-size:clamp(72px,7.4vw,112px);line-height:.8;padding-top:.06em}
+.v-explain{background:var(--halo);flex-direction:column;justify-content:center;align-items:flex-start;padding:0 8%;gap:8px}
+.v-explain > *{flex:none}
+.v-explain .lg{font-size:clamp(56px,5vw,76px);color:var(--pink)}
+.v-explain p{font:400 15px/1.45 var(--f-body);color:var(--ink);max-width:30ch}
+.v-mark{background:var(--red);color:var(--halo);align-items:center;justify-content:center;padding-inline:12%}
+.v-voice{background:var(--pink);color:var(--lime-hers)}
+.v-voice .lg{font-size:clamp(56px,6vw,92px);line-height:.84;padding-top:.06em}
+.arch-test{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(12px,1.8vw,22px)}
+.arch-test li{background:var(--bg);color:var(--fg);padding:clamp(18px,2.4vw,28px);display:grid;gap:10px;align-content:space-between;min-height:150px}
+.arch-test q{font-family:var(--f-display);text-transform:uppercase;font-size:clamp(36px,3.8vw,52px);line-height:.9;quotes:none}
+.arch-test span{font:500 12px/1.35 var(--f-mono)}
+@media (max-width:1000px){
+  .why{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:860px){
+  .isnt,.arch-test{grid-template-columns:1fr}
+  .arch-test li{min-height:0}
+}
+@media (max-width:620px){
+  .why{grid-template-columns:1fr}
+  .why-card.wide{grid-column:auto}
+  .isnt li{grid-template-columns:1fr;gap:6px}
+  .mix .ratio span{font-size:11px;padding:6px}
+}
+
+/* 03 logo */
 .logo-ch{background:var(--paper-deep)}
 .logo-stage{background:var(--paper);padding:clamp(40px,7vw,96px) clamp(18px,7vw,110px)}
 .logo-anat{position:relative;color:var(--red)}
@@ -139,7 +213,7 @@ svg{max-width:100%}
 .bad-cap{margin-top:12px;font-size:14.5px;line-height:1.45}
 .bad-cap b{font-weight:600}
 
-/* 03 colour */
+/* 04 colour */
 .swatches{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(14px,2vw,24px)}
 .sw{background:var(--paper);display:grid;grid-template-rows:auto 1fr;min-width:0}
 .sw-chip{aspect-ratio:5/4;background:var(--c);border-bottom:2px solid var(--ink);position:relative}
@@ -160,7 +234,7 @@ svg{max-width:100%}
 .note{margin-top:clamp(28px,4vw,44px);max-width:72ch;font-size:15px;color:var(--muted)}
 .note b{color:var(--ink);font-weight:600}
 
-/* 04 him & her */
+/* 05 him & her */
 .lines{display:grid;grid-template-columns:1fr 1fr;gap:clamp(36px,4.5vw,72px);margin-top:clamp(40px,6vw,72px)}
 .line{display:grid;gap:clamp(20px,2.6vw,30px);align-content:start;min-width:0}
 .line-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;border-bottom:2px solid var(--halo);padding-bottom:12px}
@@ -179,7 +253,7 @@ svg{max-width:100%}
 .chip i{width:18px;height:18px;border-radius:50%;background:var(--c);display:block}
 .type-meta p{color:rgba(253,246,231,.75);max-width:46ch}
 
-/* 05 type */
+/* 06 type */
 .widths{border-top:2px solid var(--ink)}
 .wrow{display:grid;grid-template-columns:180px minmax(0,1fr) 250px;gap:24px;align-items:center;padding-block:clamp(12px,1.8vw,22px);border-bottom:2px solid var(--ink)}
 .wtag{font:500 12.5px/1.4 var(--f-mono);color:var(--muted)}
@@ -218,7 +292,7 @@ input[type=range]{width:100%;accent-color:var(--pink)}
 .companion .aa b{font-weight:800}
 .weights{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:18px;margin-top:14px}
 
-/* 06 specimens */
+/* 07 specimens */
 .chart-ch{background:var(--chart)}
 .chart-title{font:800 clamp(30px,6vw,78px)/.95 var(--f-body);letter-spacing:-.025em;text-transform:uppercase;text-align:center;text-wrap:balance}
 .chart-sub{text-align:center;margin:14px auto 0;max-width:58ch;color:var(--muted);font-size:15px}
@@ -238,7 +312,7 @@ input[type=range]{width:100%;accent-color:var(--pink)}
 .strip .sp{width:100%;height:auto;aspect-ratio:1;--so:4px}
 .strip-label{display:flex;justify-content:space-between;font:500 12px/1.3 var(--f-mono);color:var(--muted);margin-bottom:6px}
 
-/* 07 patterns */
+/* 08 patterns */
 .tiles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(12px,1.8vw,22px)}
 .tile{aspect-ratio:1;background-size:var(--ts,300px);background-position:center}
 .feature-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(12px,1.8vw,22px)}
@@ -248,7 +322,7 @@ input[type=range]{width:100%;accent-color:var(--pink)}
 .serp-grid .small .fill{aspect-ratio:16/10}
 .burst-grid .small .fill{aspect-ratio:4/5}
 
-/* 08 packaging */
+/* 09 packaging */
 .pack-ch{background:var(--studio)}
 .pack-row{display:grid;gap:clamp(10px,1.8vw,26px)}
 .boxes{grid-template-columns:repeat(4,minmax(0,1fr))}
@@ -315,7 +389,7 @@ input[type=range]{width:100%;accent-color:var(--pink)}
 .tissue-logos{position:absolute;inset:-35%;display:flex;flex-wrap:wrap;gap:5cqw 7cqw;align-content:center;justify-content:center;transform:rotate(-16deg);color:var(--m)}
 .tissue-logos span{width:15cqw;display:block}
 
-/* 09 voice */
+/* 10 voice */
 .voice{background:var(--pink);color:var(--ink)}
 .voice .title{color:var(--lime-hers)}
 .voice .ch-no{background:var(--ink);color:var(--lime-hers)}
@@ -327,7 +401,7 @@ input[type=range]{width:100%;accent-color:var(--pink)}
 .dodont h4{font-family:var(--f-display);font-weight:400;text-transform:uppercase;font-size:40px;line-height:.9;color:var(--lime-hers);padding-bottom:10px;border-bottom:2px solid var(--ink);margin-bottom:6px}
 .dodont li{padding-block:11px;border-bottom:1px solid rgba(18,15,26,.25);font-size:16px}
 
-/* 10 kit */
+/* 11 kit */
 .tree{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(20px,3vw,40px);margin-top:clamp(32px,4vw,52px)}
 .tree h4{font-family:var(--f-display);font-weight:400;text-transform:uppercase;font-size:30px;line-height:.9;color:var(--lime-his);margin-bottom:10px}
 .tree li{font:400 13px/1.75 var(--f-mono);color:rgba(253,246,231,.78);overflow-wrap:anywhere}
@@ -374,6 +448,7 @@ input[type=range]{width:100%;accent-color:var(--pink)}
     <a class="nav-logo" href="#top" aria-label="Sinners, back to top"><svg class="logo-svg" viewBox="106 109 1562 680" aria-hidden="true" focusable="false"><use href="#lgS"/><use href="#lgR"/></svg></a>
     <ul>
       <li><a class="l" href="#concept">Concept</a></li>
+      <li><a class="l" href="#archetype">Archetype</a></li>
       <li><a class="l" href="#logo">Logo</a></li>
       <li><a class="l" href="#colour">Colour</a></li>
       <li><a class="l" href="#him-her">Him &amp; Her</a></li>
@@ -481,10 +556,188 @@ input[type=range]{width:100%;accent-color:var(--pink)}
   </div>
 </section>
 
-<!-- 02 LOGO -->
+<!-- 02 ARCHETYPE -->
+<section class="ch on-ink arch-ch" id="archetype">
+  <div class="wrap">
+    <div class="ch-head"><span class="ch-no">02</span><span class="ch-name">The archetype</span><span class="ch-rule"></span></div>
+    <div class="concept">
+      <h2 class="lg title arch-title">Born to break the rules. <span>Raised to enjoy it.</span></h2>
+      <div>
+        <p class="lede">One character runs this brand: an outlaw with a sense of humour and a weakness for temptation.</p>
+        <div class="body">
+          <p>Every colour, letter, shape and line in this book traces back to it. That’s why the neon clashes, the type shouts and the copy winks.</p>
+          <p>When a new call comes up, ask what the Outlaw would do. Then make it funnier. Then make it harder to resist.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="pillars arch-trio">
+      <article class="pillar obj" style="--bg:var(--blue);--fg:var(--lime-his)">
+        <div class="arch-top">
+          <svg class="sp" viewBox="0 0 200 200" style="--a:#B5F800;--k:#120F1A;--b:#FDF6E7;--sh:#120F1A" aria-hidden="true" focusable="false"><use href="#sp-wrath"/></svg>
+          <span class="lg arch-pct">50<small>%</small></span>
+        </div>
+        <span class="arch-role">Primary · a.k.a. the Rebel</span>
+        <h3 class="lg">The Outlaw</h3>
+        <p class="lg w875 arch-motto">Rules are a dare.</p>
+        <p>Sinners exists to break the “you shouldn’t” rules. Have the dessert. Buy the second one. Indulgence is the point, not the guilt.</p>
+      </article>
+      <article class="pillar obj" style="--bg:var(--lime-his);--fg:var(--ink)">
+        <div class="arch-top">
+          <svg class="sp" viewBox="0 0 200 200" style="--a:#FF00AE;--k:#120F1A;--b:#FDF6E7;--sh:#120F1A" aria-hidden="true" focusable="false"><use href="#sp-sloth"/></svg>
+          <span class="lg arch-pct">30<small>%</small></span>
+        </div>
+        <span class="arch-role">Secondary · the wink</span>
+        <h3 class="lg">The Jester</h3>
+        <p class="lg w875 arch-motto">Sin, but make it fun.</p>
+        <p>The rebellion is never angry. Every sin is played for a wink, and the joke is on the rules, never on the customer.</p>
+      </article>
+      <article class="pillar obj" style="--bg:var(--pink);--fg:var(--lime-hers)">
+        <div class="arch-top">
+          <svg class="sp" viewBox="0 0 200 200" style="--a:#C1FF1A;--k:#120F1A;--b:#FDF6E7;--sh:#120F1A" aria-hidden="true" focusable="false"><use href="#sp-lust"/></svg>
+          <span class="lg arch-pct">20<small>%</small></span>
+        </div>
+        <span class="arch-role">Accent · the pull</span>
+        <h3 class="lg">The Lover</h3>
+        <p class="lg w875 arch-motto">Hard to resist.</p>
+        <p>Temptation, attraction, scent as seduction. Him and her, two lines that pull at each other. It’s why everything runs a little warm.</p>
+      </article>
+    </div>
+
+    <div class="mix">
+      <div class="ratio-name"><h4>The mix</h4><span>Outlaw · Jester · Lover</span></div>
+      <div class="ratio obj" role="img" aria-label="Archetype mix: Outlaw 50 percent, Jester 30 percent, Lover 20 percent">
+        <span style="flex:50;background:#0036FF;color:#B5F800">Outlaw 50</span>
+        <span style="flex:30;background:#B5F800;color:#120F1A">Jester 30</span>
+        <span style="flex:20;background:#FF00AE;color:#C1FF1A">Lover 20</span>
+      </div>
+    </div>
+
+    <div class="sub"><h3>Who we are. Who we’re not.</h3><p>A brand that tries to be everyone looks like no one. These are the doors we keep shut.</p></div>
+    <div class="isnt">
+      <div class="yes"><h4>We are</h4><ul>
+        <li><b>The Outlaw</b><p>Breaks the rules on purpose, and in public.</p></li>
+        <li><b>The Jester</b><p>Breaks them for a laugh. Never mean, never bitter.</p></li>
+        <li><b>The Lover</b><p>Breaks them because it’s tempting. Scent, colour, a little danger.</p></li>
+      </ul></div>
+      <div class="no"><h4>We’re not</h4><ul>
+        <li><b>The Innocent</b><p>Clean, pure, pastel. We’re not sorry and we’re not sweet.</p></li>
+        <li><b>The Ruler</b><p>Gold foil, quiet serifs, luxury restraint. We’d rather be seen than whispered about.</p></li>
+        <li><b>Heritage</b><p>Crests, sepia, “since 1887”. We borrow the 80s for its noise, not its nostalgia.</p></li>
+      </ul></div>
+    </div>
+
+    <div class="sub"><h3>Why it looks like this</h3><p>Every design decision in this book, and the archetype that made it.</p></div>
+    <div class="why">
+      <article class="why-card obj wide">
+        <div class="why-vis v-clash" aria-hidden="true"><span class="lg" style="background:var(--blue);color:var(--lime-his)">Sin</span><span class="lg" style="background:var(--pink);color:var(--lime-hers)">Sin</span><span class="lg" style="background:var(--lime-his);color:var(--blue)">Sin</span></div>
+        <div class="why-meta">
+          <h3 class="lg">Neon on neon</h3>
+          <div class="why-tags"><span class="arch-tag t-out">Outlaw</span></div>
+          <p>Blue Devil, Guilty Pink and Envy Lime break every “good taste” rule on purpose. They clash, they stay clashed, and they get seen from across the street.</p>
+          <a class="why-ref" href="#colour">#0036FF · #FF00AE · #B5F800 → 04 Colour</a>
+        </div>
+      </article>
+      <article class="why-card obj">
+        <div class="why-vis v-thread" aria-hidden="true"><i></i></div>
+        <div class="why-meta">
+          <h3 class="lg">Lime, shared</h3>
+          <div class="why-tags"><span class="arch-tag t-lov">Lover</span></div>
+          <p>Him and her never share a ground, but they share the lime. Two temptations, one sin.</p>
+          <a class="why-ref" href="#him-her">→ 05 Him &amp; her</a>
+        </div>
+      </article>
+      <article class="why-card obj">
+        <div class="why-vis v-forbid" aria-hidden="true"><i style="background:var(--ink)">Sin Black</i><i style="background:var(--red)">Original Sin</i><i style="background:linear-gradient(135deg,var(--mint),var(--hot));color:var(--ink)">Temptation</i></div>
+        <div class="why-meta">
+          <h3 class="lg">Black, red, temptation</h3>
+          <div class="why-tags"><span class="arch-tag t-lov">Lover</span><span class="arch-tag t-out">Outlaw</span></div>
+          <p>Sin Black is after hours. Original Sin is the apple. Temptation is the second before you say yes.</p>
+          <a class="why-ref" href="#colour">→ 04 Colour</a>
+        </div>
+      </article>
+      <article class="why-card obj">
+        <div class="why-vis v-halo" aria-hidden="true">
+          <svg class="sp" viewBox="0 0 200 200" style="--a:#D30248;--k:#120F1A;--b:#FDF6E7;--sh:#120F1A;transform:rotate(-12deg)" focusable="false"><use href="#sp-gluttony"/></svg>
+          <svg class="sp" viewBox="0 0 200 200" style="--a:#FF00AE;--k:#120F1A;--b:#FDF6E7;--sh:#120F1A;transform:rotate(18deg)" focusable="false"><use href="#sp-lust"/></svg>
+          <svg class="sp" viewBox="0 0 200 200" style="--a:#0036FF;--k:#120F1A;--b:#FDF6E7;--sh:#120F1A;transform:rotate(-6deg)" focusable="false"><use href="#sp-greed"/></svg>
+        </div>
+        <div class="why-meta">
+          <h3 class="lg">Halo as the paper</h3>
+          <div class="why-tags"><span class="arch-tag t-irony">The irony</span><span class="arch-tag t-jes">Jester</span></div>
+          <p>The base is a soft, innocent cream. That’s the joke. Every sin in this book gets spilled on a halo.</p>
+          <a class="why-ref" href="#colour">#FDF6E7 → 04 Colour</a>
+        </div>
+      </article>
+      <article class="why-card obj">
+        <div class="why-vis v-shout" aria-hidden="true"><span class="lg">Sin loud</span></div>
+        <div class="why-meta">
+          <h3 class="lg">League Gothic, all caps</h3>
+          <div class="why-tags"><span class="arch-tag t-out">Outlaw</span></div>
+          <p>Tall, narrow, always capitals. It shouts, and it doesn’t ask permission.</p>
+          <a class="why-ref" href="#type">→ 06 Typography</a>
+        </div>
+      </article>
+      <article class="why-card obj">
+        <div class="why-vis v-explain" aria-hidden="true"><span class="lg">Guilty.</span><p>Relax, it’s a joke. Have the cake.</p></div>
+        <div class="why-meta">
+          <h3 class="lg">Outfit underneath</h3>
+          <div class="why-tags"><span class="arch-tag t-jes">Jester</span></div>
+          <p>The friendly voice under the shout. Round, clear, a little cheeky: the Jester explaining the joke.</p>
+          <a class="why-ref" href="#type">→ 06 Typography</a>
+        </div>
+      </article>
+      <article class="why-card obj">
+        <div class="why-vis v-mark" aria-hidden="true"><svg class="logo-svg" viewBox="106 109 1562 680" focusable="false"><use href="#lgS"/><use href="#lgR"/></svg></div>
+        <div class="why-meta">
+          <h3 class="lg">The melting wordmark</h3>
+          <div class="why-tags"><span class="arch-tag t-out">Outlaw</span><span class="arch-tag t-jes">Jester</span></div>
+          <p>Horned S’s, flickering N’s. Devilish, but cartoonish: scary enough to be fun, never enough to be serious.</p>
+          <a class="why-ref" href="#logo">→ 03 Logo</a>
+        </div>
+      </article>
+      <article class="why-card obj">
+        <div class="why-vis trio" aria-hidden="true"><svg class="sp" viewBox="0 0 200 200" style="--a:#0036FF;--k:#120F1A;--b:#FDF6E7;--sh:#120F1A" focusable="false"><use href="#sp-pride"/></svg><svg class="sp" viewBox="0 0 200 200" style="--a:#B5F800;--k:#120F1A;--b:#FDF6E7;--sh:#120F1A" focusable="false"><use href="#sp-envy"/></svg><svg class="sp" viewBox="0 0 200 200" style="--a:#FF00AE;--k:#120F1A;--b:#FDF6E7;--sh:#120F1A" focusable="false"><use href="#sp-greed"/></svg></div>
+        <div class="why-meta">
+          <h3 class="lg">Memphis specimens</h3>
+          <div class="why-tags"><span class="arch-tag t-jes">Jester</span></div>
+          <p>An 80s science chart, renamed after the seven deadly sins. Bad habits, turned into toys.</p>
+          <a class="why-ref" href="#specimens">→ 07 Specimens</a>
+        </div>
+      </article>
+      <article class="why-card obj">
+        <div class="why-vis split" aria-hidden="true"><div class="bg-serp-master"></div><div class="bg-burst-master"></div></div>
+        <div class="why-meta">
+          <h3 class="lg">Serpent &amp; burst</h3>
+          <div class="why-tags"><span class="arch-tag t-lov">Lover</span></div>
+          <p>Eden, the apple, the first temptation. The serpent loops, the burst glows like the moment you gave in.</p>
+          <a class="why-ref" href="#patterns">→ 08 Backgrounds</a>
+        </div>
+      </article>
+      <article class="why-card obj wide">
+        <div class="why-vis v-voice" aria-hidden="true"><span class="lg">Confess nothing.</span></div>
+        <div class="why-meta">
+          <h3 class="lg">Winks, never whispers</h3>
+          <div class="why-tags"><span class="arch-tag t-jes">Jester</span><span class="arch-tag t-out">Outlaw</span></div>
+          <p>The voice dares and teases. It never whispers and never explains itself. If a line needs a footnote, it isn’t Sinners.</p>
+          <a class="why-ref" href="#voice">→ 10 Voice</a>
+        </div>
+      </article>
+    </div>
+
+    <div class="sub"><h3>The gut check</h3><p>Before anything ships, it has to pass all three. Two out of three goes back.</p></div>
+    <ol class="arch-test">
+      <li style="--bg:var(--blue);--fg:var(--lime-his)"><q>Does it break a rule?</q><span>The Outlaw</span></li>
+      <li style="--bg:var(--lime-his);--fg:var(--ink)"><q>Is it in on the joke?</q><span>The Jester</span></li>
+      <li style="--bg:var(--pink);--fg:var(--lime-hers)"><q>Do you want it?</q><span>The Lover</span></li>
+    </ol>
+  </div>
+</section>
+
+<!-- 03 LOGO -->
 <section class="ch logo-ch" id="logo">
   <div class="wrap">
-    <div class="ch-head"><span class="ch-no">02</span><span class="ch-name">The logo</span><span class="ch-rule"></span></div>
+    <div class="ch-head"><span class="ch-no">03</span><span class="ch-name">The logo</span><span class="ch-rule"></span></div>
     <h2 class="lg title">Too hot<br>to sit still.</h2>
     <div class="sub" style="margin-top:28px"><p style="font-size:17px;max-width:60ch">The wordmark is hand-drawn and it never stands straight. Three details make it ours. Point to them whenever someone asks for “a cleaner version”.</p></div>
     <div class="logo-stage obj">
@@ -537,10 +790,10 @@ input[type=range]{width:100%;accent-color:var(--pink)}
   </div>
 </section>
 
-<!-- 03 COLOUR -->
+<!-- 04 COLOUR -->
 <section class="ch" id="colour">
   <div class="wrap">
-    <div class="ch-head"><span class="ch-no">03</span><span class="ch-name">Colour</span><span class="ch-rule"></span></div>
+    <div class="ch-head"><span class="ch-no">04</span><span class="ch-name">Colour</span><span class="ch-rule"></span></div>
     <div class="concept">
       <h2 class="lg title">Neon<br>on neon.</h2>
       <div><p class="lede">Four loud colours, two quiet ones, one heritage red and a gradient.</p>
@@ -554,10 +807,10 @@ input[type=range]{width:100%;accent-color:var(--pink)}
   </div>
 </section>
 
-<!-- 04 HIM & HER -->
+<!-- 05 HIM & HER -->
 <section class="ch on-ink" id="him-her">
   <div class="wrap">
-    <div class="ch-head"><span class="ch-no">04</span><span class="ch-name">The collections</span><span class="ch-rule"></span></div>
+    <div class="ch-head"><span class="ch-no">05</span><span class="ch-name">The collections</span><span class="ch-rule"></span></div>
     <div class="concept">
       <h2 class="lg title">Him &amp; her.<br>Two types each.</h2>
       <div class="body"><p style="font-size:18px;color:var(--halo)">Type 01 is the hero and goes on the outside. Type 02 flips the same two colours for whatever’s inside: inner boxes, tags, inserts, accessories.</p><p>Never mix the lines. Pink doesn’t go on blue, and blue doesn’t go on pink.</p></div>
@@ -575,10 +828,10 @@ input[type=range]{width:100%;accent-color:var(--pink)}
   </div>
 </section>
 
-<!-- 05 TYPE -->
+<!-- 06 TYPE -->
 <section class="ch" id="type">
   <div class="wrap">
-    <div class="ch-head"><span class="ch-no">05</span><span class="ch-name">Typography</span><span class="ch-rule"></span></div>
+    <div class="ch-head"><span class="ch-no">06</span><span class="ch-name">Typography</span><span class="ch-rule"></span></div>
     <div class="concept">
       <h2 class="lg title">League Gothic.<br>Three widths.</h2>
       <div><p class="lede">One tall, narrow family does all the shouting. It always sets in capitals.</p>
@@ -642,10 +895,10 @@ input[type=range]{width:100%;accent-color:var(--pink)}
   </div>
 </section>
 
-<!-- 06 SPECIMENS -->
+<!-- 07 SPECIMENS -->
 <section class="ch chart-ch" id="specimens">
   <div class="wrap">
-    <div class="ch-head"><span class="ch-no">06</span><span class="ch-name">Graphic language</span><span class="ch-rule"></span></div>
+    <div class="ch-head"><span class="ch-no">07</span><span class="ch-name">Graphic language</span><span class="ch-rule"></span></div>
     <h2 class="chart-title">Specimens of sin</h2>
     <p class="chart-sub">Nine flat shapes, one for each of the seven deadly sins, plus the serpent and the garden. Drawn in the spirit of the 80s micro-organism chart.</p>
     <div class="chart"><figure class="spec"><svg class="sp" viewBox="0 0 200 200" style="--a:#0036FF;--k:#120F1A;--b:#FDF6E7;--sh:#120F1A" aria-hidden="true" focusable="false"><use href="#sp-pride"/></svg><figcaption><span class="latin">Superbia Triangulus</span><span class="sin lg w875">Pride</span><span class="what">Stands tallest. Points up. Never apologises.</span></figcaption></figure><figure class="spec"><svg class="sp" viewBox="0 0 200 200" style="--a:#FF00AE;--k:#120F1A;--b:#FDF6E7;--sh:#120F1A" aria-hidden="true" focusable="false"><use href="#sp-lust"/></svg><figcaption><span class="latin">Luxuria Tigrina</span><span class="sin lg w875">Lust</span><span class="what">Striped, wild and running a little warm.</span></figcaption></figure><figure class="spec"><svg class="sp" viewBox="0 0 200 200" style="--a:#B5F800;--k:#120F1A;--b:#FDF6E7;--sh:#120F1A" aria-hidden="true" focusable="false"><use href="#sp-envy"/></svg><figcaption><span class="latin">Invidia Quadrata</span><span class="sin lg w875">Envy</span><span class="what">Always checking what the next square has.</span></figcaption></figure><figure class="spec"><svg class="sp" viewBox="0 0 200 200" style="--a:#D30248;--k:#120F1A;--b:#FDF6E7;--sh:#120F1A" aria-hidden="true" focusable="false"><use href="#sp-gluttony"/></svg><figcaption><span class="latin">Gula Smearacola</span><span class="sin lg w875">Gluttony</span><span class="what">Goes back for seconds. Then thirds.</span></figcaption></figure><figure class="spec"><svg class="sp" viewBox="0 0 200 200" style="--a:#C1FF1A;--k:#120F1A;--b:#FDF6E7;--sh:#120F1A" aria-hidden="true" focusable="false"><use href="#sp-wrath"/></svg><figcaption><span class="latin">Ira Fulminata</span><span class="sin lg w875">Wrath</span><span class="what">Strikes first. Zig, then zag.</span></figcaption></figure><figure class="spec"><svg class="sp" viewBox="0 0 200 200" style="--a:#0036FF;--k:#120F1A;--b:#FDF6E7;--sh:#120F1A" aria-hidden="true" focusable="false"><use href="#sp-greed"/></svg><figcaption><span class="latin">Avaritia Quadrispira</span><span class="sin lg w875">Greed</span><span class="what">Hoards everything into the middle.</span></figcaption></figure><figure class="spec"><svg class="sp" viewBox="0 0 200 200" style="--a:#FF00AE;--k:#120F1A;--b:#FDF6E7;--sh:#120F1A" aria-hidden="true" focusable="false"><use href="#sp-sloth"/></svg><figcaption><span class="latin">Acedia Spiralis</span><span class="sin lg w875">Sloth</span><span class="what">Goes round in circles. Slowly.</span></figcaption></figure><figure class="spec"><svg class="sp" viewBox="0 0 200 200" style="--a:#0036FF;--k:#120F1A;--b:#FDF6E7;--sh:#120F1A" aria-hidden="true" focusable="false"><use href="#sp-serpent"/></svg><figcaption><span class="latin">Serpens Undulatus</span><span class="sin lg w875">The Serpent</span><span class="what">Started all of this.</span></figcaption></figure><figure class="spec"><svg class="sp" viewBox="0 0 200 200" style="--a:#B5F800;--k:#120F1A;--b:#FF00AE;--sh:#120F1A" aria-hidden="true" focusable="false"><use href="#sp-eden"/></svg><figcaption><span class="latin">Palma Paradisi</span><span class="sin lg w875">Eden</span><span class="what">The garden we got thrown out of.</span></figcaption></figure></div>
@@ -663,10 +916,10 @@ input[type=range]{width:100%;accent-color:var(--pink)}
   </div>
 </section>
 
-<!-- 07 PATTERNS -->
+<!-- 08 PATTERNS -->
 <section class="ch" id="patterns">
   <div class="wrap">
-    <div class="ch-head"><span class="ch-no">07</span><span class="ch-name">Backgrounds</span><span class="ch-rule"></span></div>
+    <div class="ch-head"><span class="ch-no">08</span><span class="ch-name">Backgrounds</span><span class="ch-rule"></span></div>
     <div class="concept">
       <h2 class="lg title">Three<br>patterns.</h2>
       <div><p class="lede">The designs from your references, rebuilt as repeatable brand backgrounds in every type.</p>
@@ -684,10 +937,10 @@ input[type=range]{width:100%;accent-color:var(--pink)}
   </div>
 </section>
 
-<!-- 08 PACKAGING -->
+<!-- 09 PACKAGING -->
 <section class="ch pack-ch" id="packaging">
   <div class="wrap">
-    <div class="ch-head"><span class="ch-no">08</span><span class="ch-name">On pack</span><span class="ch-rule"></span></div>
+    <div class="ch-head"><span class="ch-no">09</span><span class="ch-name">On pack</span><span class="ch-rule"></span></div>
     <div class="concept">
       <h2 class="lg title">Temptation,<br>boxed.</h2>
       <div><p class="lede">How the system lands on a box, a bag, a tag and everything in between.</p>
@@ -712,10 +965,10 @@ input[type=range]{width:100%;accent-color:var(--pink)}
   </div>
 </section>
 
-<!-- 09 VOICE -->
+<!-- 10 VOICE -->
 <section class="ch voice" id="voice">
   <div class="wrap">
-    <div class="ch-head"><span class="ch-no">09</span><span class="ch-name">Voice</span><span class="ch-rule"></span></div>
+    <div class="ch-head"><span class="ch-no">10</span><span class="ch-name">Voice</span><span class="ch-rule"></span></div>
     <h2 class="lg title">No saints<br>allowed.</h2>
     <p class="lede" style="margin-top:24px">We talk like a friend daring you to do it anyway. Short, cheeky, sure of itself.</p>
     <div class="says">
@@ -743,10 +996,10 @@ input[type=range]{width:100%;accent-color:var(--pink)}
   </div>
 </section>
 
-<!-- 10 KIT -->
+<!-- 11 KIT -->
 <section class="ch on-ink" id="kit">
   <div class="wrap">
-    <div class="ch-head"><span class="ch-no">10</span><span class="ch-name">The kit</span><span class="ch-rule"></span></div>
+    <div class="ch-head"><span class="ch-no">11</span><span class="ch-name">The kit</span><span class="ch-rule"></span></div>
     <div class="concept">
       <h2 class="lg title">Take it<br>with you.</h2>
       <div class="body"><p style="font-size:18px;color:var(--halo)">Every asset in this book is saved in the <b>SINNERS Brand Kit</b> folder next to your original files: vector SVGs for Illustrator or Figma, transparent PNGs, an Adobe swatch file and the fonts.</p></div>
