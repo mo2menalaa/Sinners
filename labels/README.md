@@ -1,6 +1,6 @@
 # Sinners body splash: UV DTF labels
 
-Front and back labels for the four scents, ready for the printer.
+Labels for the four scents, as separate pieces for a gang sheet plus full front and back layouts for reference.
 
 | Scent | Line | Liquid | Front print | Small text |
 |---|---|---|---|---|
@@ -11,33 +11,41 @@ Front and back labels for the four scents, ready for the printer.
 
 Small text on pink or lime liquid is Sin Black, per the brand book's vibration rule.
 
-## Files
+## Pieces (print these)
 
-- `<scent>/sinners-<scent>-front.pdf` / `.svg`: 54.76 × 88.10 mm artboard
-- `<scent>/sinners-<scent>-back.pdf` / `.svg`: 54.76 × 52.38 mm artboard
-- `sinners-labels-proof.pdf`: A3 proof, every label at 100% over its liquid colour
+`<scent>/pieces/sinners-<scent>-<piece>.pdf` and `.svg`, one file per piece:
 
-All text is converted to outlines; no fonts needed. Backgrounds are transparent. In the SVGs each ink is its own group (`ink-envy-lime`, `ink-sin-black`, …).
+| Piece | Ink size | Per bottle |
+|---|---|---|
+| logo | 50.0 × 21.4 mm | 1 |
+| body-splash | 31.3 × 2.2 mm | 1 |
+| scent-name | 30.5–49.5 × 7.6 mm (varies by scent) | 1 |
+| volume | 33.1 × 2.2 mm | **2** (front and back) |
+| ingredients | 45.9 × 15.9 mm | 1 |
+| symbols | 36.8 × 10.5 mm | 1 |
+| made-in-egypt | 22.6 × 1.7 mm | 1 |
+
+Each artboard is the ink plus a **0.5 mm clear margin**; set the nesting gap in the RIP. Every piece was checked at 1200 dpi: no ink is clipped.
+
+## Placement
+
+- `sinners-placement-guide.pdf`: A3 sheet showing where each piece goes, with the ink-to-ink gaps. All pieces are centred on one vertical line.
+- `<scent>/sinners-<scent>-front.pdf` / `-back.pdf`: the full layouts (54.76 × 88.10 and 54.76 × 52.38 mm), for checking position.
+- `sinners-labels-proof.pdf`: A3 proof of every full label at 100% over its liquid colour.
 
 ## Print
 
-- Opaque UV DTF, white underbase under all ink.
-- Raised gloss on the wordmark.
-- Sized from the wordmark: **50 mm wide** (visible ink, measured). Everything else is scaled in proportion (× 1.190 from the master layout).
+- Opaque UV DTF, white underbase under all ink. Raised gloss on the logo.
+- Logo 50 mm wide (visible ink); everything else in proportion.
+- All text is converted to outlines, so no fonts are needed. Transparent background, one group per ink in the SVGs.
 
-| Element | Size |
-|---|---|
-| Wordmark | 50.0 × 21.4 mm |
-| Type name (League Gothic) | 7.6 mm cap height, 10.1 mm type size |
-| BODY SPLASH / volume (DM Mono Medium) | 3.0 mm type size (≈ 8.4 pt) |
-| Ingredients (DM Mono) | 2.7 mm type size (≈ 7.6 pt) |
-| Symbols | ≈ 8 mm, 0.42 mm line weight |
-| Side margins (front) | 2.4 mm |
+## Ingredients
 
-- Check the wrap on the real bottle before plating: a 50 mm logo covers about a third of the way round a 52 mm bottle.
+Alcohol Denat., Aqua (Water), Parfum (Fragrance), Glycerin, Phenoxyethanol.
 
 ## Before production
 
-- **Colourants:** the ingredients copy is taken from the reference bottle. `CI 19140, CI 42090` (yellow + blue) suit the lime liquids only; each scent needs its own colourant line from the filler.
-- **Legal copy:** add whatever the market requires and the reference doesn't show, such as batch/lot code, responsible person name and address, and usage warnings.
+- **Colourants:** the liquids are tinted. If that colour comes from added dyes, most markets require them on the ingredient list (as CI numbers). Confirm with the filler.
+- **Legal copy:** add whatever the market requires and isn't shown here, such as batch/lot code, responsible person name and address, and usage warnings.
 - **Approve colour on a lightbox:** neon inks on tinted liquid shift; check each against its swatch.
+- **Check the wrap:** a 50 mm logo covers about a third of the way round a 52 mm bottle.
