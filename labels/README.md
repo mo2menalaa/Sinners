@@ -13,9 +13,9 @@ Small text on pink or lime liquid is Sin Black, per the brand book's vibration r
 
 ## Files
 
-- `<scent>/sinners-<scent>-front.pdf` / `.svg`: 46 × 74 mm artboard
-- `<scent>/sinners-<scent>-back.pdf` / `.svg`: 46 × 44 mm artboard
-- `sinners-labels-proof.pdf`: A4 proof, every label at 100% over its liquid colour
+- `<scent>/sinners-<scent>-front.pdf` / `.svg`: 54.76 × 88.10 mm artboard
+- `<scent>/sinners-<scent>-back.pdf` / `.svg`: 54.76 × 52.38 mm artboard
+- `sinners-labels-proof.pdf`: A3 proof, every label at 100% over its liquid colour
 
 All text is converted to outlines; no fonts needed. Backgrounds are transparent. In the SVGs each ink is its own group (`ink-envy-lime`, `ink-sin-black`, …).
 
@@ -23,7 +23,18 @@ All text is converted to outlines; no fonts needed. Backgrounds are transparent.
 
 - Opaque UV DTF, white underbase under all ink.
 - Raised gloss on the wordmark.
-- Print width 42 mm. Sized for a 52 mm diameter, 250 mL cylinder. Confirm the real printable area and rescale proportionally if it differs.
+- Sized from the wordmark: **50 mm wide** (visible ink, measured). Everything else is scaled in proportion (× 1.190 from the master layout).
+
+| Element | Size |
+|---|---|
+| Wordmark | 50.0 × 21.4 mm |
+| Type name (League Gothic) | 7.6 mm cap height, 10.1 mm type size |
+| BODY SPLASH / volume (DM Mono Medium) | 3.0 mm type size (≈ 8.4 pt) |
+| Ingredients (DM Mono) | 2.7 mm type size (≈ 7.6 pt) |
+| Symbols | ≈ 8 mm, 0.42 mm line weight |
+| Side margins (front) | 2.4 mm |
+
+- Check the wrap on the real bottle before plating: a 50 mm logo covers about a third of the way round a 52 mm bottle.
 
 ## Before production
 
