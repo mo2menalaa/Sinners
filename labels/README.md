@@ -1,6 +1,6 @@
 # Sinners body splash: UV DTF labels
 
-Labels for the four scents, as separate pieces for a gang sheet plus full front and back layouts for reference.
+Labels for the four scents: the front as separate pieces for a gang sheet, the back as one piece, plus full layouts for reference.
 
 | Scent | Line | Liquid | Front print | Small text |
 |---|---|---|---|---|
@@ -11,27 +11,25 @@ Labels for the four scents, as separate pieces for a gang sheet plus full front 
 
 Small text on pink or lime liquid is Sin Black, per the brand book's vibration rule.
 
-## Pieces (print these)
+## Print files
 
-`<scent>/pieces/sinners-<scent>-<piece>.pdf` and `.svg`, one file per piece:
+Everything to print is in `<scent>/print/`, as PDF and SVG: **5 pieces per bottle**.
 
-| Piece | Ink size | Per bottle |
+| File | Ink size | Notes |
 |---|---|---|
-| logo | 50.0 × 21.4 mm | 1 |
-| body-splash | 31.3 × 2.2 mm | 1 |
-| scent-name | 30.5–49.5 × 7.6 mm (varies by scent) | 1 |
-| volume | 33.1 × 2.2 mm | **2** (front and back) |
-| ingredients | 45.9 × 15.9 mm | 1 |
-| symbols | 36.8 × 10.5 mm | 1 |
-| made-in-egypt | 22.6 × 1.7 mm | 1 |
+| `sinners-<scent>-front-logo` | 50.0 × 21.4 mm | front |
+| `sinners-<scent>-front-body-splash` | 31.3 × 2.2 mm | front |
+| `sinners-<scent>-front-scent-name` | 30.5–49.5 × 7.6 mm | front, width varies by scent |
+| `sinners-<scent>-front-volume` | 33.1 × 2.2 mm | front |
+| `sinners-<scent>-back` | 45.9 × 46.3 mm | the whole back as one piece: ingredients, symbols, volume, Made in Egypt |
 
-Each artboard is the ink plus a **0.5 mm clear margin**; set the nesting gap in the RIP. Every piece was checked at 1200 dpi: no ink is clipped.
+Each artboard is the ink plus a **0.5 mm clear margin** (back file: 46.9 × 47.3 mm); set the nesting gap in the RIP. Every file was checked at 1200 dpi: no ink is clipped.
 
 ## Placement
 
-- `sinners-placement-guide.pdf`: A3 sheet showing where each piece goes, with the ink-to-ink gaps. All pieces are centred on one vertical line.
-- `<scent>/sinners-<scent>-front.pdf` / `-back.pdf`: the full layouts (54.76 × 88.10 and 54.76 × 52.38 mm), for checking position.
-- `sinners-labels-proof.pdf`: A3 proof of every full label at 100% over its liquid colour.
+- `sinners-placement-guide.pdf`: A3 sheet showing where each piece goes, with the ink-to-ink gaps on the front. All pieces are centred on one vertical line.
+- `<scent>/layout/`: the full front and back layouts (54.76 × 88.10 and 54.76 × 52.38 mm), for checking position only. Don't print these.
+- `sinners-labels-proof.pdf`: A3 proof of every full layout at 100% over its liquid colour.
 
 ## Print
 
